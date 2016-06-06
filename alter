@@ -7,9 +7,13 @@ ALTER:
       
     EX: 
     修改欄位定義
-      alter table test
-      alter column  empName varchar(20)
+            alter table test
+            alter column  empName varchar(20)
       
     新增欄位
-      alter table test
-      add addtest varchar(20)
+            alter table test
+            add addtest varchar(20)
+            
+    刪除欄位
+            alter table test
+            drop column  empName 
